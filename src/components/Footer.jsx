@@ -19,9 +19,9 @@ export const Footer = () => {
             </h2>
             <p className="text-gray-400">Free to start. No credit card required.</p>
           </div>
-          <div>
+          <div className="w-full sm:w-auto mt-4 sm:mt-0">
             <button 
-              className="group w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-white text-black rounded-full font-bold text-sm sm:text-base 
+              className="group w-full px-6 sm:px-8 py-3 sm:py-4 bg-white text-black rounded-full font-bold text-sm sm:text-base 
                 transition-all hover:scale-105 flex items-center justify-center space-x-2 cursor-pointer"
             >
               <span>Start free trial</span>
