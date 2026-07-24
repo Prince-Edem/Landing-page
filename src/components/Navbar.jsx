@@ -29,7 +29,7 @@ export const Navbar = () => {
             <button className="font-medium hover:text-gray-400 cursor-pointer">
               Login
             </button>
-            <button className="bg-white text-black py-2 px-6 rounded-full font-bold transition relative overflow-hidden hover:scale-105 cursor-pointer">
+            <button className="bg-white text-black py-2 px-4 sm:px-6 rounded-full font-bold transition relative overflow-hidden hover:scale-105 cursor-pointer">
               Start free trial
             </button>
           </div>
