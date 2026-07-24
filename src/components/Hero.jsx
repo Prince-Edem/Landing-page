@@ -46,7 +46,7 @@ export const Hero = () => {
                 Join any call and get searchable notes, action items, and summaries automatically. No more scrambling to type while you talk.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 sm:gap-4 mb-8 sm:mb-12">
-                <button className="group w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-linear-to-r from-blue-600 to-purple-600 rounded-4xl font-semibold text-sm sm:text-base transition-all hover:scale-105 flex items-center justify-center space-x-2 cursor-pointer">
+                <button className="group w-full sm:w-auto px-5 sm:px-8 py-2.5 sm:py-4 bg-linear-to-r from-blue-600 to-purple-600 rounded-4xl font-semibold text-sm sm:text-base transition-all hover:scale-105 flex items-center justify-center space-x-2 cursor-pointer">
                   <span>Start Free Trial</span>
                   <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform duration-300"/>
                 </button>
