@@ -57,7 +57,7 @@ export const Pricing = () => {
             <div 
               key={key} 
               className={`relative bg-slate-900/50 backdrop-blur-sm border rounded-xl sm:rounded-2xl p-6 sm:p-8 transition-all duration-300 overflow-visible group flex flex-col h-full 
-              ${plan.mostPopular ? "border-blue-500 shadow-2xl shadow-blue-500/20 lg:scale-105" : "border-slate-800 hover:border-slate-700"}`}
+              ${plan.mostPopular ? "border-blue-500 shadow-2xl shadow-blue-500/10 lg:scale-105" : "border-slate-800 hover:border-slate-700"}`}
             >
               {plan.mostPopular && (
                 <div className="absolute -top-2 sm:-top-3 left-1/2 transform -translate-x-1/2 z-10">

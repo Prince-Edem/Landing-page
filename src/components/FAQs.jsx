@@ -29,7 +29,7 @@ export const FAQs = () => {
   }
 
   return (
-    <section id="faqs" className="py-16 sm:py-20 px-10 sm:px-6 lg:px-8 relative bg-zinc-950 border-t border-white/10">
+    <section id="faqs" className="py-16 sm:py-20 px-10 sm:px-6 lg:px-8 relative bg-zinc-800/20 border-t border-white/10">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-7 sm:mb-11 lg:mb-15">
           <h2 className="text-3xl sm:text-2xl md:text-3xl lg:text-4xl font-black mb-4 sm:mb-6">

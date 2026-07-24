@@ -2,11 +2,17 @@
 
 html {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  background-color: black;
 }
 
 body {
   font-family: "Geist", sans-serif;
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  background-color: black;
 }
 
 @layer utilities {
