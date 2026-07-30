@@ -10,12 +10,9 @@ export const Navbar = () => {
           {/* Logo */}
           <a href="#hero">
             <div className="flex items-center space-x-1 group cursor-pointer">
-              <div>
-                <img src="/logo.png" alt="Recap logo" className="w-6 h-6 sm:w-8 sm:h-8"/>
-              </div>
               <span className="text-lg sm:text-xl md:text-2xl font-medium">
                 <span>Rec</span>
-                <span className="text-blue-400">ap</span>
+                <span className="bg-linear-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">ap</span>
               </span>
             </div>
           </a>

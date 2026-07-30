@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className="max-w-6xl mx-auto">
         {/* Big Card */}
         <div 
-          className="flex flex-col sm:flex-row text-center justify-between items-center p-10 gap-4 mb-20 backdrop-blur-sm bg-linear-to-r from-blue-500/20 to-purple-500/20 rounded-3xl"
+          className="flex flex-col sm:flex-row text-center justify-between items-center p-10 gap-4 mb-20 backdrop-blur-sm bg-linear-to-r from-blue-500/60 to-purple-500/60 rounded-3xl"
         >
           <div className="text-left">
             <h2 className="text-3xl md:text-4xl font-black">
@@ -35,12 +35,9 @@ export const Footer = () => {
             <div>
               <a href="#hero">
                 <div className="flex items-center space-x-1 group cursor-pointer">
-                  <div>
-                    <img src="/logo.png" alt="CodeFlow" className="w-6 h-6 sm:w-8 sm:h-8"/>
-                  </div>
                   <span className="text-lg sm:text-xl md:text-2xl font-medium">
                     <span>Rec</span>
-                    <span className="text-blue-400">ap</span>
+                    <span className="bg-linear-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">ap</span>
                   </span>
                 </div>
               </a>
