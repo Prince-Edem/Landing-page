@@ -51,13 +51,15 @@ export const Footer = () => {
                 <FaXTwitter className="w-5 h-5 sm:w-5 sm:h-5" />
               </a>
               <a
-                href="#"
+                href="https://github.com/Prince-Edem/recap-landing-page"
+                target="_blank"
                 className="p-2 sm:p-2.5 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors duration-200"
               >
                 <FaGithub className="w-5 h-5 sm:w-5 sm:h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/prince-edem-kutortse/"
+                target="_blank"
                 className="p-2 sm:p-2.5 bg-slate-800 rounded-lg hover:bg-slate-700 transition-colors duration-200"
               >
                 <FaLinkedinIn className="w-5 h-5 sm:w-5 sm:h-5" />
